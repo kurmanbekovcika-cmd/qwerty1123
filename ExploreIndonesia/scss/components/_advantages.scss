@@ -1,0 +1,113 @@
+.advantages {
+  background-color: #020c21;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+.advantages__list {
+  background: linear-gradient(180deg, #010a20 0%, rgba(1, 10, 32, 0) 100%);
+  background-size: 100%;
+  align-items: center;
+  @media screen and (min-width: 1200px) {
+    background: linear-gradient(180deg, #010a20 0%, rgb(1, 10, 32) 100%);
+  }
+}
+.advantages__item {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-bottom: 192px;
+  }
+}
+.advantages__img {
+  width: 100%;
+  border-radius: 10px;
+  @media screen and (min-width: 1200px) {
+    width: 630px;
+    height: 460px;
+    opacity: 1;
+    border-radius: 10px;
+  }
+}
+.advantages__title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  line-height: 46px;
+  margin-bottom: 15px;
+}
+.advantages__text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #e0e0e0;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.advantages__button {
+  width: 100%;
+  color: white;
+  border: none;
+  box-shadow: none;
+  margin: 56px 0;
+  background-color: #dd2242;
+  border-radius: 107px;
+  padding: 23px 0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  @media screen and (min-width: 1200px) {
+    width: 180px;
+    padding: 16 0;
+    height: 60px;
+    opacity: 1;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+}
+.first {
+  padding: 40px 0 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(to bottom, #010a20e1, rgb(1, 10, 32)),
+    url(../../img/Rectangle\ 9.png);
+  @media screen and (min-width: 1200px) {
+    background-image: linear-gradient(to bottom, #010a20, rgb(1, 10, 32));
+  }
+}
+.second {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, #010a20, rgba(1, 10, 32, 0.911)),
+    url(../../img/Rectangle\ 10.png);
+  @media screen and (min-width: 1200px) {
+    background-image: linear-gradient(to bottom, #010a20, rgb(1, 10, 32));
+  }
+}
+.advantages__second--img--beta {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}
+.advantages__first--img--beta {
+  display: block;
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+}
