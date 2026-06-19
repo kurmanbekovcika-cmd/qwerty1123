@@ -1,0 +1,73 @@
+.life {
+  padding-top: 85px;
+  padding-bottom: 50px;
+  align-items: center;
+  background-image: url(../../img/hugo-matilla-EFuCATqfblI-unsplash\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  @media screen and (min-width: 1200px) {
+    background-image: url(../../img/hugo-matilla-EFuCATqfblI-unsplash\ 1\ \(1\).png);
+  }
+}
+.life__title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: white;
+}
+.life__video {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  @media screen and (min-width: 1200px) {
+    width: 1056px;
+    height: 594px;
+    border-radius: 10px;
+  }
+}
+.life__list {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.life__item {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+  }
+}
+.life__title__list {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+.life__text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #ffffff;
+}
+.second__videos {
+  @media screen and (min-width: 1200px) {
+    width: 234px;
+    height: 151px;
+    top: 6803px;
+    left: 1035px;
+    opacity: 1;
+    border-radius: 5px;
+  }
+}

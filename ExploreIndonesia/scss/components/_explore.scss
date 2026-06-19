@@ -1,0 +1,81 @@
+.explore {
+    background-image: url(../../img/explore.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    @media screen and (min-width: 1200px) {
+    background-image: url(../../img/ifan-bima-B04Xpnu5JQ4-unsplash\ 1.png);
+  }
+}
+.explore__title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 0 23px 0;
+}
+.explore__list {
+    padding: 23px 0;
+    margin-bottom: 728px;
+}
+.explore__item {
+    display: flex;
+    justify-content: space-between;
+    gap: 11px;
+}
+.explore__buttone{
+    background-color: transparent;
+    border: none;
+}
+.numbers__list {
+    background-color: #020c21c2;
+    padding: 72px 32px;
+}
+.numbers__item {
+}
+.numbers__title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #DD2242;
+}
+.numbers__text {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #E0E0E0;
+    margin-bottom: 50px;
+
+}
+.explore__title--number{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 72px;
+
+}
+.explore__svg{
+    width: 15px;
+    fill: #020B20;
+}
+.number__container__list{
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        justify-content: space-between;
+  }
+}

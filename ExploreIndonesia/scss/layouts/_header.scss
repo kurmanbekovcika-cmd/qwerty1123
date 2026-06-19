@@ -1,0 +1,40 @@
+.header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header__nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.header__list {
+    margin: 0px 270px;
+    display: none;
+    justify-content: space-between;
+    gap: 62px;
+    margin-top: 38px;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.header__link {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+.logo {
+  width: 200px;
+  height: 100px;
+  top: 48px;
+  left: 24px;
+  opacity: 1;
+}
+.header__item {
+}
